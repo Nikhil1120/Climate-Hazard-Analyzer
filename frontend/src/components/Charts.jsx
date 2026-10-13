@@ -1,8 +1,8 @@
 import React from "react";
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, LineElement, PointElement, Tooltip, Legend } from "chart.js";
+import { Chart as ChartJS, CategoryScale, LinearScale, BarController, LineController, BarElement, LineElement, PointElement, Tooltip, Legend } from "chart.js";
 import { Chart } from "react-chartjs-2";
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, LineElement, PointElement, Tooltip, Legend);
+ChartJS.register(CategoryScale, LinearScale, BarController, LineController, BarElement, LineElement, PointElement, Tooltip, Legend);
 
 const RED = "#c8412f";
 const RED_LIGHT = "rgba(200,65,47,0.28)";
